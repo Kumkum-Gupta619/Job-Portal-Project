@@ -1,0 +1,1442 @@
+[
+  {
+    "company": "Zava",
+    "position": "Computer Systems Analyst III",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "252 Mariners Cove Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-15T09:33:51.326Z",
+    "updatedAt": "2025-02-15T09:33:51.326Z"
+  },
+  {
+    "company": "Trudoo",
+    "position": "Senior Editor",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "212 Marcy Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-17T17:29:47.794Z",
+    "updatedAt": "2025-01-17T17:29:47.794Z"
+  },
+  {
+    "company": "Devpoint",
+    "position": "Professor",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "4 Ohio Junction",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-19T00:19:36.734Z",
+    "updatedAt": "2025-04-19T00:19:36.734Z"
+  },
+  {
+    "company": "Blogspan",
+    "position": "Associate Professor",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "2 Novick Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-02T18:24:03.845Z",
+    "updatedAt": "2025-04-02T18:24:03.845Z"
+  },
+  {
+    "company": "Trupe",
+    "position": "VP Accounting",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "1662 West Avenue",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-18T06:04:58.595Z",
+    "updatedAt": "2024-08-18T06:04:58.595Z"
+  },
+  {
+    "company": "Babbleopia",
+    "position": "Geologist IV",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-26T16:34:09.744Z",
+    "updatedAt": "2024-11-26T16:34:09.744Z"
+  },
+  {
+    "company": "Jazzy",
+    "position": "Programmer Analyst IV",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "92 Porter Trail",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-02T01:39:37.502Z",
+    "updatedAt": "2025-02-02T01:39:37.502Z"
+  },
+  {
+    "company": "Eayo",
+    "position": "Staff Accountant IV",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "02169 Bonner Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-08T16:09:50.881Z",
+    "updatedAt": "2024-07-08T16:09:50.881Z"
+  },
+  {
+    "company": "Kare",
+    "position": "Information Systems Manager",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "9 Fordem Lane",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-24T02:51:22.662Z",
+    "updatedAt": "2024-10-24T02:51:22.662Z"
+  },
+  {
+    "company": "Mycat",
+    "position": "Teacher",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "21 Thompson Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-21T03:37:16.141Z",
+    "updatedAt": "2024-09-21T03:37:16.141Z"
+  },
+  {
+    "company": "Jayo",
+    "position": "Media Manager IV",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "6705 Mayer Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-21T09:57:12.680Z",
+    "updatedAt": "2025-01-21T09:57:12.680Z"
+  },
+  {
+    "company": "Mudo",
+    "position": "Dental Hygienist",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "530 Crescent Oaks Street",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-13T03:16:12.524Z",
+    "updatedAt": "2024-07-13T03:16:12.524Z"
+  },
+  {
+    "company": "Shufflebeat",
+    "position": "Health Coach IV",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "22367 Ridge Oak Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-03-19T16:34:57.622Z",
+    "updatedAt": "2025-03-19T16:34:57.622Z"
+  },
+  {
+    "company": "Rhyzio",
+    "position": "Programmer Analyst II",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "808 Ruskin Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-29T03:45:21.193Z",
+    "updatedAt": "2024-10-29T03:45:21.193Z"
+  },
+  {
+    "company": "Gabtune",
+    "position": "Paralegal",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "48372 Hallows Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-15T01:59:56.466Z",
+    "updatedAt": "2025-04-15T01:59:56.466Z"
+  },
+  {
+    "company": "Voomm",
+    "position": "Research Assistant II",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "3672 Brickson Park Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-21T17:30:14.530Z",
+    "updatedAt": "2024-06-21T17:30:14.530Z"
+  },
+  {
+    "company": "Shufflebeat",
+    "position": "Chemical Engineer",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "65 Mosinee Place",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-19T12:12:02.142Z",
+    "updatedAt": "2024-08-19T12:12:02.142Z"
+  },
+  {
+    "company": "Thoughtworks",
+    "position": "Software Engineer IV",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "9 Daystar Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-22T02:29:24.816Z",
+    "updatedAt": "2024-10-22T02:29:24.816Z"
+  },
+  {
+    "company": "Leexo",
+    "position": "VP Product Management",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "77978 Fairfield Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-21T21:01:31.756Z",
+    "updatedAt": "2025-05-21T21:01:31.756Z"
+  },
+  {
+    "company": "Aivee",
+    "position": "Clinical Specialist",
+    "status": "inactive",
+    "WorkType": "contract",
+    "work_location": "99 Elgar Crossing",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-20T20:45:15.814Z",
+    "updatedAt": "2025-02-20T20:45:15.814Z"
+  },
+  {
+    "company": "Cogibox",
+    "position": "Marketing Manager",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "1 Glendale Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-10T21:12:04.586Z",
+    "updatedAt": "2024-07-10T21:12:04.586Z"
+  },
+  {
+    "company": "Realcube",
+    "position": "Mechanical Systems Engineer",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "60 Sunfield Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-08T11:02:11.167Z",
+    "updatedAt": "2025-01-08T11:02:11.167Z"
+  },
+  {
+    "company": "Thoughtmix",
+    "position": "Health Coach II",
+    "status": "inactive",
+    "WorkType": "contract",
+    "work_location": "05917 High Crossing Lane",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-22T08:22:31.752Z",
+    "updatedAt": "2024-06-22T08:22:31.752Z"
+  },
+  {
+    "company": "Voonyx",
+    "position": "Recruiter",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "206 Trailsway Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-21T14:53:07.467Z",
+    "updatedAt": "2024-09-21T14:53:07.467Z"
+  },
+  {
+    "company": "Edgeclub",
+    "position": "General Manager",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "6 Lakeland Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-03T00:47:06.228Z",
+    "updatedAt": "2024-08-03T00:47:06.228Z"
+  },
+  {
+    "company": "Dabshots",
+    "position": "Senior Sales Associate",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "37599 Springview Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-13T19:18:45.972Z",
+    "updatedAt": "2024-07-13T19:18:45.972Z"
+  },
+  {
+    "company": "Tagtune",
+    "position": "Paralegal",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "3872 Alpine Avenue",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-26T01:39:49.715Z",
+    "updatedAt": "2024-12-26T01:39:49.715Z"
+  },
+  {
+    "company": "Kwilith",
+    "position": "Business Systems Development Analyst",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "83491 Vernon Crossing",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-12T18:21:09.380Z",
+    "updatedAt": "2025-01-12T18:21:09.380Z"
+  },
+  {
+    "company": "Tagopia",
+    "position": "Sales Associate",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "4 Bluestem Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-16T23:22:12.722Z",
+    "updatedAt": "2024-09-16T23:22:12.722Z"
+  },
+  {
+    "company": "Yodo",
+    "position": "Quality Control Specialist",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "7967 Schmedeman Park",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-13T21:39:03.398Z",
+    "updatedAt": "2025-04-13T21:39:03.398Z"
+  },
+  {
+    "company": "Avavee",
+    "position": "Research Nurse",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "1 Crescent Oaks Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-07T03:32:26.633Z",
+    "updatedAt": "2024-10-07T03:32:26.633Z"
+  },
+  {
+    "company": "Babbleset",
+    "position": "Graphic Designer",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "75849 Stoughton Terrace",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-23T22:40:09.707Z",
+    "updatedAt": "2024-12-23T22:40:09.707Z"
+  },
+  {
+    "company": "Eayo",
+    "position": "Recruiter",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "371 Lakewood Gardens Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-25T09:52:56.836Z",
+    "updatedAt": "2024-11-25T09:52:56.836Z"
+  },
+  {
+    "company": "Bubblemix",
+    "position": "Social Worker",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "1307 Duke Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-14T08:53:34.122Z",
+    "updatedAt": "2024-10-14T08:53:34.122Z"
+  },
+  {
+    "company": "Realcube",
+    "position": "Structural Engineer",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "4220 Oriole Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-01T02:29:16.519Z",
+    "updatedAt": "2024-12-01T02:29:16.519Z"
+  },
+  {
+    "company": "Eazzy",
+    "position": "Pharmacist",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "0934 Columbus Plaza",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-25T12:27:56.913Z",
+    "updatedAt": "2025-01-25T12:27:56.913Z"
+  },
+  {
+    "company": "Agimba",
+    "position": "Financial Analyst",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "92 Bunker Hill Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-28T09:28:29.953Z",
+    "updatedAt": "2024-07-28T09:28:29.953Z"
+  },
+  {
+    "company": "Chatterbridge",
+    "position": "GIS Technical Architect",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "1 Amoth Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-29T20:28:10.754Z",
+    "updatedAt": "2024-11-29T20:28:10.754Z"
+  },
+  {
+    "company": "Npath",
+    "position": "Sales Associate",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "0565 Judy Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-07T13:20:24.724Z",
+    "updatedAt": "2025-05-07T13:20:24.724Z"
+  },
+  {
+    "company": "Cogibox",
+    "position": "Programmer Analyst III",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "91992 Lakewood Park",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-26T05:24:56.733Z",
+    "updatedAt": "2024-09-26T05:24:56.733Z"
+  },
+  {
+    "company": "Rhynyx",
+    "position": "Pharmacist",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "97324 Amoth Terrace",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-02T03:55:08.143Z",
+    "updatedAt": "2024-11-02T03:55:08.143Z"
+  },
+  {
+    "company": "Trunyx",
+    "position": "Mechanical Systems Engineer",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "2735 Mccormick Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-01T06:51:08.277Z",
+    "updatedAt": "2024-11-01T06:51:08.277Z"
+  },
+  {
+    "company": "Nlounge",
+    "position": "Computer Systems Analyst IV",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "15997 Londonderry Drive",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-12T03:55:23.785Z",
+    "updatedAt": "2025-02-12T03:55:23.785Z"
+  },
+  {
+    "company": "Kanoodle",
+    "position": "Registered Nurse",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "032 Corry Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-03-12T21:24:41.080Z",
+    "updatedAt": "2025-03-12T21:24:41.080Z"
+  },
+  {
+    "company": "Zoozzy",
+    "position": "Administrative Assistant III",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "6 Autumn Leaf Alley",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-04T16:25:25.105Z",
+    "updatedAt": "2024-12-04T16:25:25.105Z"
+  },
+  {
+    "company": "Jabberstorm",
+    "position": "Data Coordinator",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "17809 Independence Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-13T11:53:02.043Z",
+    "updatedAt": "2025-05-13T11:53:02.043Z"
+  },
+  {
+    "company": "Topiclounge",
+    "position": "Speech Pathologist",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "4 Dawn Alley",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-05T16:09:20.665Z",
+    "updatedAt": "2024-10-05T16:09:20.665Z"
+  },
+  {
+    "company": "Feednation",
+    "position": "Clinical Specialist",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "1 Cardinal Parkway",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-04T15:35:03.305Z",
+    "updatedAt": "2024-12-04T15:35:03.305Z"
+  },
+  {
+    "company": "Livepath",
+    "position": "GIS Technical Architect",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "25 Hoffman Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-21T07:27:34.611Z",
+    "updatedAt": "2024-11-21T07:27:34.611Z"
+  },
+  {
+    "company": "Topiclounge",
+    "position": "Recruiting Manager",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "5 Village Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-15T10:52:35.823Z",
+    "updatedAt": "2024-07-15T10:52:35.823Z"
+  },
+  {
+    "company": "Dazzlesphere",
+    "position": "Analog Circuit Design manager",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "99 Dottie Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-29T14:00:17.978Z",
+    "updatedAt": "2024-07-29T14:00:17.978Z"
+  },
+  {
+    "company": "Rhynyx",
+    "position": "Geological Engineer",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "667 Warrior Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-18T07:35:50.400Z",
+    "updatedAt": "2024-08-18T07:35:50.400Z"
+  },
+  {
+    "company": "Feedfish",
+    "position": "Payment Adjustment Coordinator",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "930 Ludington Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-28T15:15:44.611Z",
+    "updatedAt": "2024-09-28T15:15:44.611Z"
+  },
+  {
+    "company": "Tanoodle",
+    "position": "Senior Cost Accountant",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "3882 Crownhardt Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-01T21:31:38.470Z",
+    "updatedAt": "2025-01-01T21:31:38.470Z"
+  },
+  {
+    "company": "Skinix",
+    "position": "Business Systems Development Analyst",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "946 Independence Lane",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-08T08:24:03.748Z",
+    "updatedAt": "2024-07-08T08:24:03.748Z"
+  },
+  {
+    "company": "Shuffledrive",
+    "position": "Pharmacist",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "3 Birchwood Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-28T01:18:03.261Z",
+    "updatedAt": "2024-12-28T01:18:03.261Z"
+  },
+  {
+    "company": "Lazz",
+    "position": "Project Manager",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "09380 Kennedy Trail",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-15T16:40:35.228Z",
+    "updatedAt": "2025-04-15T16:40:35.228Z"
+  },
+  {
+    "company": "Jaxworks",
+    "position": "Chief Design Engineer",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "36 Clemons Crossing",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-30T05:27:23.969Z",
+    "updatedAt": "2024-06-30T05:27:23.969Z"
+  },
+  {
+    "company": "Wikido",
+    "position": "Senior Financial Analyst",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "26 Memorial Alley",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-02T01:05:38.562Z",
+    "updatedAt": "2025-01-02T01:05:38.562Z"
+  },
+  {
+    "company": "Rhyloo",
+    "position": "Financial Analyst",
+    "status": "inactive",
+    "WorkType": "contract",
+    "work_location": "1 Ohio Place",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-11T01:34:08.541Z",
+    "updatedAt": "2024-10-11T01:34:08.541Z"
+  },
+  {
+    "company": "Zava",
+    "position": "Computer Systems Analyst III",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "252 Mariners Cove Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-03-18T07:49:46.718Z",
+    "updatedAt": "2025-03-18T07:49:46.718Z"
+  },
+  {
+    "company": "Trudoo",
+    "position": "Senior Editor",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "212 Marcy Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-16T23:47:21.640Z",
+    "updatedAt": "2024-09-16T23:47:21.640Z"
+  },
+  {
+    "company": "Devpoint",
+    "position": "Professor",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "4 Ohio Junction",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-30T10:26:06.680Z",
+    "updatedAt": "2024-12-30T10:26:06.680Z"
+  },
+  {
+    "company": "Blogspan",
+    "position": "Associate Professor",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "2 Novick Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-01T02:40:24.956Z",
+    "updatedAt": "2024-07-01T02:40:24.956Z"
+  },
+  {
+    "company": "Trupe",
+    "position": "VP Accounting",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "1662 West Avenue",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-08T20:43:25.780Z",
+    "updatedAt": "2024-08-08T20:43:25.780Z"
+  },
+  {
+    "company": "Babbleopia",
+    "position": "Geologist IV",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "38483 Loeprich Junction",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-11T10:50:24.107Z",
+    "updatedAt": "2025-01-11T10:50:24.107Z"
+  },
+  {
+    "company": "Jazzy",
+    "position": "Programmer Analyst IV",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "92 Porter Trail",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-17T10:18:20.983Z",
+    "updatedAt": "2024-06-17T10:18:20.983Z"
+  },
+  {
+    "company": "Eayo",
+    "position": "Staff Accountant IV",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "02169 Bonner Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-25T11:30:40.187Z",
+    "updatedAt": "2024-12-25T11:30:40.187Z"
+  },
+  {
+    "company": "Kare",
+    "position": "Information Systems Manager",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "9 Fordem Lane",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-30T14:37:11.593Z",
+    "updatedAt": "2024-08-30T14:37:11.593Z"
+  },
+  {
+    "company": "Mycat",
+    "position": "Teacher",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "21 Thompson Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-26T16:52:08.460Z",
+    "updatedAt": "2025-02-26T16:52:08.460Z"
+  },
+  {
+    "company": "Jayo",
+    "position": "Media Manager IV",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "6705 Mayer Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-21T21:51:21.455Z",
+    "updatedAt": "2024-08-21T21:51:21.455Z"
+  },
+  {
+    "company": "Mudo",
+    "position": "Dental Hygienist",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "530 Crescent Oaks Street",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-11T22:13:37.560Z",
+    "updatedAt": "2024-06-11T22:13:37.560Z"
+  },
+  {
+    "company": "Shufflebeat",
+    "position": "Health Coach IV",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "22367 Ridge Oak Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-17T14:51:53.026Z",
+    "updatedAt": "2024-06-17T14:51:53.026Z"
+  },
+  {
+    "company": "Rhyzio",
+    "position": "Programmer Analyst II",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "808 Ruskin Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-03-26T02:28:01.877Z",
+    "updatedAt": "2025-03-26T02:28:01.877Z"
+  },
+  {
+    "company": "Gabtune",
+    "position": "Paralegal",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "48372 Hallows Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-24T13:36:28.963Z",
+    "updatedAt": "2025-05-24T13:36:28.963Z"
+  },
+  {
+    "company": "Voomm",
+    "position": "Research Assistant II",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "3672 Brickson Park Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-05T14:11:35.229Z",
+    "updatedAt": "2024-08-05T14:11:35.229Z"
+  },
+  {
+    "company": "Shufflebeat",
+    "position": "Chemical Engineer",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "65 Mosinee Place",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-08T08:36:58.354Z",
+    "updatedAt": "2025-05-08T08:36:58.354Z"
+  },
+  {
+    "company": "Thoughtworks",
+    "position": "Software Engineer IV",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "9 Daystar Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-16T04:09:33.195Z",
+    "updatedAt": "2025-01-16T04:09:33.195Z"
+  },
+  {
+    "company": "Leexo",
+    "position": "VP Product Management",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "77978 Fairfield Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-08T17:53:44.786Z",
+    "updatedAt": "2025-02-08T17:53:44.786Z"
+  },
+  {
+    "company": "Aivee",
+    "position": "Clinical Specialist",
+    "status": "inactive",
+    "WorkType": "contract",
+    "work_location": "99 Elgar Crossing",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-19T17:23:55.485Z",
+    "updatedAt": "2024-11-19T17:23:55.485Z"
+  },
+  {
+    "company": "Cogibox",
+    "position": "Marketing Manager",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "1 Glendale Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-03-04T14:20:22.061Z",
+    "updatedAt": "2025-03-04T14:20:22.061Z"
+  },
+  {
+    "company": "Realcube",
+    "position": "Mechanical Systems Engineer",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "60 Sunfield Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-13T16:19:10.310Z",
+    "updatedAt": "2025-05-13T16:19:10.310Z"
+  },
+  {
+    "company": "Thoughtmix",
+    "position": "Health Coach II",
+    "status": "inactive",
+    "WorkType": "contract",
+    "work_location": "05917 High Crossing Lane",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-20T01:07:02.611Z",
+    "updatedAt": "2025-01-20T01:07:02.611Z"
+  },
+  {
+    "company": "Voonyx",
+    "position": "Recruiter",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "206 Trailsway Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-10-31T22:34:23.550Z",
+    "updatedAt": "2024-10-31T22:34:23.550Z"
+  },
+  {
+    "company": "Edgeclub",
+    "position": "General Manager",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "6 Lakeland Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-16T00:45:53.853Z",
+    "updatedAt": "2024-06-16T00:45:53.853Z"
+  },
+  {
+    "company": "Dabshots",
+    "position": "Senior Sales Associate",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "37599 Springview Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-25T13:02:23.532Z",
+    "updatedAt": "2024-07-25T13:02:23.532Z"
+  },
+  {
+    "company": "Tagtune",
+    "position": "Paralegal",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "3872 Alpine Avenue",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-29T10:56:42.112Z",
+    "updatedAt": "2024-09-29T10:56:42.112Z"
+  },
+  {
+    "company": "Kwilith",
+    "position": "Business Systems Development Analyst",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "83491 Vernon Crossing",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-26T03:13:00.071Z",
+    "updatedAt": "2024-06-26T03:13:00.071Z"
+  },
+  {
+    "company": "Tagopia",
+    "position": "Sales Associate",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "4 Bluestem Way",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-01T14:52:19.559Z",
+    "updatedAt": "2025-01-01T14:52:19.559Z"
+  },
+  {
+    "company": "Yodo",
+    "position": "Quality Control Specialist",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "7967 Schmedeman Park",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-15T15:49:00.542Z",
+    "updatedAt": "2024-08-15T15:49:00.542Z"
+  },
+  {
+    "company": "Avavee",
+    "position": "Research Nurse",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "1 Crescent Oaks Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-12T22:31:06.369Z",
+    "updatedAt": "2024-09-12T22:31:06.369Z"
+  },
+  {
+    "company": "Babbleset",
+    "position": "Graphic Designer",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "75849 Stoughton Terrace",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-03-27T03:53:49.829Z",
+    "updatedAt": "2025-03-27T03:53:49.829Z"
+  },
+  {
+    "company": "Eayo",
+    "position": "Recruiter",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "371 Lakewood Gardens Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-14T07:15:54.249Z",
+    "updatedAt": "2024-11-14T07:15:54.249Z"
+  },
+  {
+    "company": "Bubblemix",
+    "position": "Social Worker",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "1307 Duke Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-11-05T08:39:56.671Z",
+    "updatedAt": "2024-11-05T08:39:56.671Z"
+  },
+  {
+    "company": "Realcube",
+    "position": "Structural Engineer",
+    "status": "inactive",
+    "WorkType": "full-time",
+    "work_location": "4220 Oriole Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-29T09:50:34.069Z",
+    "updatedAt": "2024-06-29T09:50:34.069Z"
+  },
+  {
+    "company": "Eazzy",
+    "position": "Pharmacist",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "0934 Columbus Plaza",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-21T21:50:31.073Z",
+    "updatedAt": "2024-07-21T21:50:31.073Z"
+  },
+  {
+    "company": "Agimba",
+    "position": "Financial Analyst",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "92 Bunker Hill Point",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-19T03:13:14.685Z",
+    "updatedAt": "2025-05-19T03:13:14.685Z"
+  },
+  {
+    "company": "Chatterbridge",
+    "position": "GIS Technical Architect",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "1 Amoth Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-20T06:26:08.076Z",
+    "updatedAt": "2025-02-20T06:26:08.076Z"
+  },
+  {
+    "company": "Npath",
+    "position": "Sales Associate",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "0565 Judy Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-05T06:33:48.804Z",
+    "updatedAt": "2024-09-05T06:33:48.804Z"
+  },
+  {
+    "company": "Cogibox",
+    "position": "Programmer Analyst III",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "91992 Lakewood Park",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-16T12:51:01.460Z",
+    "updatedAt": "2024-09-16T12:51:01.460Z"
+  },
+  {
+    "company": "Rhynyx",
+    "position": "Pharmacist",
+    "status": "active",
+    "WorkType": "full-time",
+    "work_location": "97324 Amoth Terrace",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-18T17:42:47.410Z",
+    "updatedAt": "2024-09-18T17:42:47.410Z"
+  },
+  {
+    "company": "Trunyx",
+    "position": "Mechanical Systems Engineer",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "2735 Mccormick Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-22T13:42:08.029Z",
+    "updatedAt": "2024-08-22T13:42:08.029Z"
+  },
+  {
+    "company": "Nlounge",
+    "position": "Computer Systems Analyst IV",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "15997 Londonderry Drive",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-11T21:18:54.936Z",
+    "updatedAt": "2024-09-11T21:18:54.936Z"
+  },
+  {
+    "company": "Kanoodle",
+    "position": "Registered Nurse",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "032 Corry Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-13T01:13:14.213Z",
+    "updatedAt": "2025-05-13T01:13:14.213Z"
+  },
+  {
+    "company": "Zoozzy",
+    "position": "Administrative Assistant III",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "6 Autumn Leaf Alley",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-14T00:24:10.554Z",
+    "updatedAt": "2025-04-14T00:24:10.554Z"
+  },
+  {
+    "company": "Jabberstorm",
+    "position": "Data Coordinator",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "17809 Independence Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-17T02:34:17.359Z",
+    "updatedAt": "2025-02-17T02:34:17.359Z"
+  },
+  {
+    "company": "Topiclounge",
+    "position": "Speech Pathologist",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "4 Dawn Alley",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-06-13T06:29:26.625Z",
+    "updatedAt": "2024-06-13T06:29:26.625Z"
+  },
+  {
+    "company": "Feednation",
+    "position": "Clinical Specialist",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "1 Cardinal Parkway",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-17T20:20:06.403Z",
+    "updatedAt": "2025-01-17T20:20:06.403Z"
+  },
+  {
+    "company": "Livepath",
+    "position": "GIS Technical Architect",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "25 Hoffman Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-15T07:20:29.047Z",
+    "updatedAt": "2024-07-15T07:20:29.047Z"
+  },
+  {
+    "company": "Topiclounge",
+    "position": "Recruiting Manager",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "5 Village Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-04-18T20:41:01.789Z",
+    "updatedAt": "2025-04-18T20:41:01.789Z"
+  },
+  {
+    "company": "Dazzlesphere",
+    "position": "Analog Circuit Design manager",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "99 Dottie Hill",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-18T01:58:40.351Z",
+    "updatedAt": "2024-08-18T01:58:40.351Z"
+  },
+  {
+    "company": "Rhynyx",
+    "position": "Geological Engineer",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "667 Warrior Pass",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-08T01:33:46.220Z",
+    "updatedAt": "2025-01-08T01:33:46.220Z"
+  },
+  {
+    "company": "Feedfish",
+    "position": "Payment Adjustment Coordinator",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "930 Ludington Circle",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-12-19T17:39:13.221Z",
+    "updatedAt": "2024-12-19T17:39:13.221Z"
+  },
+  {
+    "company": "Tanoodle",
+    "position": "Senior Cost Accountant",
+    "status": "pending",
+    "WorkType": "full-time",
+    "work_location": "3882 Crownhardt Center",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-05-12T19:45:07.751Z",
+    "updatedAt": "2025-05-12T19:45:07.751Z"
+  },
+  {
+    "company": "Skinix",
+    "position": "Business Systems Development Analyst",
+    "status": "active",
+    "WorkType": "part-time",
+    "work_location": "946 Independence Lane",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-04T11:00:05.603Z",
+    "updatedAt": "2025-01-04T11:00:05.603Z"
+  },
+  {
+    "company": "Shuffledrive",
+    "position": "Pharmacist",
+    "status": "pending",
+    "WorkType": "contract",
+    "work_location": "3 Birchwood Road",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-08-26T14:41:51.264Z",
+    "updatedAt": "2024-08-26T14:41:51.264Z"
+  },
+  {
+    "company": "Lazz",
+    "position": "Project Manager",
+    "status": "pending",
+    "WorkType": "part-time",
+    "work_location": "09380 Kennedy Trail",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-01-23T05:22:52.104Z",
+    "updatedAt": "2025-01-23T05:22:52.104Z"
+  },
+  {
+    "company": "Jaxworks",
+    "position": "Chief Design Engineer",
+    "status": "inactive",
+    "WorkType": "part-time",
+    "work_location": "36 Clemons Crossing",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2025-02-27T19:10:49.610Z",
+    "updatedAt": "2025-02-27T19:10:49.610Z"
+  },
+  {
+    "company": "Wikido",
+    "position": "Senior Financial Analyst",
+    "status": "active",
+    "WorkType": "contract",
+    "work_location": "26 Memorial Alley",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-07-10T23:52:55.370Z",
+    "updatedAt": "2024-07-10T23:52:55.370Z"
+  },
+  {
+    "company": "Rhyloo",
+    "position": "Financial Analyst",
+    "status": "inactive",
+    "WorkType": "contract",
+    "work_location": "1 Ohio Place",
+    "createdBy": {
+      "$oid": "683575f1f20254b152ca5d8a"
+    },
+    "createdAt": "2024-09-23T17:23:21.421Z",
+    "updatedAt": "2024-09-23T17:23:21.421Z"
+  }
+]
