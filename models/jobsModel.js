@@ -23,6 +23,8 @@ const jobSchema = new mongoose.Schema(
             enum: ['full-time', 'part-time', 'internship', 'contract'],
             default: 'full-time',
         },
+
+        
         position: {
             type: String,
             required: [true, 'Job position is required'],
@@ -41,7 +43,11 @@ const jobSchema = new mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             ref: "Company",
             required: true,
-        },
+        },//yaha reference to company model to hame model create karna rhoga jo ki object id store kar rha h
+        // refernece hata de ?? kar skte h lekin agar company ki details perticular model me rhega to verified ka sign de skte h//
+        //string hi le skte h
+        // kese bnage i dont have idea
+        //karte hain
         created_by: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "User",
@@ -57,5 +63,6 @@ const jobSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-export const Job = mongoose.model("Job", jobSchema);
+const jobsModel = mongoose.model("jobs", jobSchema)
+export default jobsModel;
 

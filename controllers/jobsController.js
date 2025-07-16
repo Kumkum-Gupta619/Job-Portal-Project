@@ -1,30 +1,57 @@
 import mongoose from 'mongoose';
-import jobsModel from '../models/jobsModel.js';
+import jobsModel from '../models/jobsModel.js'
 import moment from 'moment';
+import companyModel from '../models/company.model.js';
 
+// we need to import the companyModel to interact with the database
 // @desc    Create a new job
 // @route   POST /api/v1/jobs
 // @access  Protected (requires authentication)
-export const createJobController = async (req, res, next) => {
-    // Destructure fields from req.body.
-    // Use snake_case for work_type and work_location to match schema
-    const { company, position, status, work_type, work_location } = req.body;
 
-    // Basic validation for required fields
-    if (!company || !position || !work_location) { // work_location is required as per schema
+
+export const createJobController = async (req, res, next) => {
+    var { title, description, salary, location, jobType, company, position, status, experience } = req.body;
+    console.log('req.body in createJobController:', req.body); // Debugging line to check the request body
+
+    if (!title || !description || !salary || !company || !position || !location) { // work_location is required as per schema
         return next('Please provide company, position, and work location');
     }
 
     try {
         // Create the job, ensuring field names match the schema
+
+        // we need to fetch the company details from the companyModel
+        // if the company does not exist, we can create a new company
+        var companyExists = await companyModel.findOne({ name: company });//check if company exists
+        if (!companyExists) {
+            const newCompany = await companyModel.create({
+                name: company,
+                domain: 'General'
+            })
+            await newCompany.save();
+            company = newCompany._id; // Use the new company's ObjectId
+        }
+        console.log('Company exists:', companyExists._id); // Debugging line to check company existence
+        company = companyExists._id; // Use the existing company's ObjectId
+
         const job = await jobsModel.create({
-            company,
+            title,
+            description,
+            salary,
+            location,
+            jobType,
             position,
+            experience,
+            company,
             status, // Will default to 'pending' if not provided
-            work_type, // Correctly uses snake_case
-            work_location, // Correctly uses snake_case
-            created_by_id: req.user.userId // Correctly assigns created_by_id
+            created_by: req.user.userId // Correctly assigns created_by_id
         });
+        if (!job) {
+            return res.status(400).json({
+                success: false,
+                message: 'job creation failed'
+            })
+        }
         res.status(201).json({
             success: true,
             message: 'Job created successfully',
@@ -35,102 +62,95 @@ export const createJobController = async (req, res, next) => {
     }
 };
 
-// @desc    Get all jobs for the authenticated user with filters, sorting, and pagination
-// @route   GET /api/v1/jobs
-// @access  Protected (requires authentication)
+
+// most of completed if you want to update something then you can do it
+//it cannot show the filter item na
+// you just add regular expression in the query
 export const getAllJobsController = async (req, res, next) => {
-    // Basic check for authenticated user ID
-    if (!req.user || !req.user.userId) {
-        return next('Authentication error: User ID not found.');
-    }
-
-    // Destructure query parameters. Use camelCase for query params for consistency
-    // but remember to map to snake_case for the database query.
-    const { status, workType, workLocation, search, sort, page, limit } = req.query;
-
-    // Base query object to filter by the current user using the correct schema field name
-    const queryObject = {
-        created_by_id: req.user.userId // CORRECT: Matches jobsModel.js schema
-    };
-
-    // Apply status filter if provided
-    if (status && status !== 'all') {
-        queryObject.status = status;
-    }
-
-    // Apply workType filter if provided (map camelCase query param to snake_case schema field)
-    if (workType && workType !== 'all') {
-        queryObject.work_type = workType; // CORRECT: Matches jobsModel.js schema
-    }
-
-    // Apply workLocation filter if provided (map camelCase query param to snake_case schema field)
-    if (workLocation && workLocation !== 'all') {
-        queryObject.work_location = workLocation; // CORRECT: Matches jobsModel.js schema
-    }
-
-    // Apply search filter on 'position' if provided (case-insensitive regex)
-    if (search) {
-        queryObject.position = { $regex: search, $options: 'i' };
-    }
-
-    let queryResult = jobsModel.find(queryObject);
-
-    // Apply sorting
-    if (sort === 'latest') {
-        queryResult = queryResult.sort('-createdAt'); // Newest first
-    } else if (sort === 'oldest') {
-        queryResult = queryResult.sort('createdAt'); // Oldest first
-    } else if (sort === 'a-z') {
-        queryResult = queryResult.sort('position'); // Alphabetical by position
-    } else if (sort === 'z-a') {
-        queryResult = queryResult.sort('-position'); // Reverse alphabetical by position
-    } else {
-        queryResult = queryResult.sort('-createdAt'); // Default sort
-    }
-
-    // Pagination logic
-    const pageNum = Number(page) || 1;
-    const limitNum = Number(limit) || 10;
-    const skip = (pageNum - 1) * limitNum;
-
-    queryResult = queryResult.skip(skip).limit(limitNum);
-
     try {
-        // Executes the query to get jobs for the current page
-        const jobs = await queryResult;
+        const { status, keyword, sort } = req.query;
 
-        // Get the total count of jobs matching the filters (without pagination)
-        const totalJobs = await jobsModel.countDocuments(queryObject);
+        // --- DEBUGGING: Log received sort parameter ---
+        console.log("Received 'sort' parameter:", sort);
 
-        // Format jobs to match the desired output.
-        // Uses the correct snake_case field names from the schema.
-        const formattedJobs = jobs.map(job => ({
-            _id: job._id,
-            createdAt: job.createdAt,
-            created_by_id: job.created_by_id, // CORRECT: Uses created_by_id
-            work_location: job.work_location, // CORRECT: Uses work_location
-            work_type: job.work_type,         // CORRECT: Uses work_type
-            status: job.status,
-            position: job.position,
-            company: job.company
-        }));
+        // Start building the query object for filtering
+        const query = {};
+
+        // Apply keyword search across multiple fields if provided
+        if (keyword) {
+            query.$or = [
+                { title: { $regex: keyword, $options: 'i' } },
+                { description: { $regex: keyword, $options: 'i' } },
+                { position: { $regex: keyword, $options: 'i' } },
+                { status: { $regex: keyword, $options: 'i' } },
+                { WorkType: { $regex: keyword, $options: 'i' } }, // Assuming WorkType is a field
+                { work_location: { $regex: keyword, $options: 'i' } } // Assuming work_location is a field
+            ];
+        }
+
+        // You can add more filters here based on 'status' or other fields
+        if (status) {
+            query.status = status; // Example: filter by exact status
+        }
+
+        // Initialize the Mongoose query chain
+        // Start with find() and populate(), but don't execute yet
+        let queryChain = jobsModel.find(query).populate('company', 'name domain');
+
+        // Apply sorting based on the 'sort' query parameter
+        if (sort === 'latest') {
+            queryChain = queryChain.sort("-createdAt"); // Latest first
+            console.log("Applying sort: latest (-createdAt)");
+        } else if (sort === 'oldest') {
+            queryChain = queryChain.sort("createdAt"); // Oldest first
+            console.log("Applying sort: oldest (createdAt)");
+        } else if (sort === 'a-z') {
+            queryChain = queryChain.sort("position"); // Position A-Z
+            console.log("Applying sort: a-z (position)");
+        } else if (sort === 'A-Z' || sort === 'z-a') {
+            queryChain = queryChain.sort("-position"); // Position Z-A
+            console.log("Applying sort: A-Z/z-a (-position)");
+        } else {
+            // Default sort if no valid 'sort' parameter is provided
+            queryChain = queryChain.sort("-createdAt");
+            console.log("Applying default sort: latest (-createdAt)");
+        }
+
+        // Execute the query after all conditions and sorts are applied
+        const jobs = await queryChain.exec();
+
+        // --- DEBUGGING: Log the positions of the fetched jobs before sending response ---
+        console.log("--- Fetched Jobs (Positions and Creation Dates) ---");
+        if (jobs && jobs.length > 0) {
+            jobs.forEach(job => {
+                console.log(`Position: "${job.position || 'N/A'}" | CreatedAt: "${job.createdAt || 'N/A'}"`);
+            });
+        } else {
+            console.log("No jobs fetched to display.");
+        }
+        console.log("---------------------------------------------------");
+
+
+        if (!jobs || jobs.length === 0) {
+            return res.status(404).json({
+                success: false,
+                message: 'No jobs found matching your criteria'
+            });
+        }
 
         res.status(200).json({
             success: true,
-            totalJobs,
-            jobs: formattedJobs,
-            numOfPage: Math.ceil(totalJobs / limitNum),
-            currentPage: pageNum
+            message: 'Jobs fetched successfully',
+            jobs // Send the correctly sorted 'jobs' array
         });
-    }
-    catch (error) {
-        next(error); // Pass any Mongoose or other errors
+
+    } catch (error) {
+        console.error('Error in getAllJobsController:', error); // Use console.error for errors
+        next(error); // Pass any Mongoose or other errors to the error handling middleware
     }
 };
 
-// @desc    Update an existing job
-// @route   PUT /api/v1/jobs/:id
-// @access  Protected (requires authentication)
+
 export const updateJobController = async (req, res, next) => {
     const { id } = req.params;
     // Use snake_case for fields matching the schema
