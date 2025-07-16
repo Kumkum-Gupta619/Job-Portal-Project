@@ -25,7 +25,7 @@ import userRoutes from "./routes/userRoutes.js";
 
 
 // Dot ENV config
-dotenv.config() 
+dotenv.config()
 
 // monogDb connection
 connectDB()
@@ -43,7 +43,7 @@ app.use(morgan('dev'));
 // routes
 
 // thi all files are in routes folder
-app.use('/api/v1/test',testRoutes);
+app.use('/api/v1/test', testRoutes);
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/user', userRoutes);
 app.use('/api/v1/job', jobsRoutes);
@@ -52,9 +52,12 @@ app.use('/api/v1/job', jobsRoutes);
 app.use(errorMiddleware);
 //port
 const PORT = process.env.PORT || 8080;
- 
+
+app.get('/', (req, res) => {
+    res.send("<h1>Welcome to Job Portal API</h1>");
+});
 //listen  
 app.listen(PORT, () => {
-    console.log( `Node server running in ${process.env.DEV_MODE} Mode on port no ${PORT}`.bgCyan.white
+    console.log(`Node server running in ${process.env.DEV_MODE} Mode on port no ${PORT}`.bgCyan.white
     );
 });
